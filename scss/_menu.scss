@@ -1,0 +1,46 @@
+body {
+	width: 100%;
+}
+.hamburger {
+    width: 40px;
+    height: 50px;
+    margin: 10px auto;
+    &:active{
+        .bunsTop:active {
+            transition: transrate(45deg) .4s;
+        }
+        .bunsBottom:active {
+            transition: transrate(45deg) .4s;
+        }
+    }
+}
+.buns {
+    display: block;
+    width: 40px;
+    height: 15px;
+    background-color: #E5A32A;
+}
+.bunsTop  {
+    border-radius: 50px 50px 10px 10px;
+}
+.bunsBottom {
+    border-radius: 10px 10px 50px 50px;
+	height: 10px;
+	margin-top: 2px;
+}
+.middle {
+    display: block;
+    width: 30px;
+    height: 3px;
+	margin-top: 2px;
+	border-radius: 10px;
+}
+.lettuce {
+    background-color: #81CA17;
+}
+.tomato {
+    background-color: #EE4935;
+}
+.beef {
+    background-color: #8B572A;
+}
